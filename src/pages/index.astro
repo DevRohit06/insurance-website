@@ -3,12 +3,14 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Header from '../components/header.jsx';
 import Hero from "../components/Hero.astro"
+import Accordion from '../components/Faq';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="LifeInsureEase">
 	<main>
 		<Header client:load/>
 		<Hero/>
+		<Accordion client:load/>
 	</main>
 </Layout>
 
