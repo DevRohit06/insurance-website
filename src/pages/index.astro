@@ -6,6 +6,7 @@ import Features from '../components/Features.astro';
 import Hero from "../components/Hero.astro"
 import Accordion from '../components/Faq';
 import Announcement from "../components/Announcement.astro"
+import Contact from "../components/Contact.jsx"
 ---
 
 <Layout title="LifeInsureEase">
@@ -16,7 +17,6 @@ import Announcement from "../components/Announcement.astro"
 		<div class="pt-52 sm:pt-96"></div>
 		<Features/>
 		<Accordion client:load/>
-		
+		<Contact client:load/>
 	</main>
 </Layout>
-

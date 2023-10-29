@@ -18,10 +18,6 @@ export default function Header() {
       name: "About us",
       link: "/about",
     },
-    {
-      name: "Contact",
-      link: "/contact",
-    },
   ];
   return (
     <>
