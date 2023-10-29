@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import  Icon from "../assets/images/icon.png"
 export default function Header() {
   const [mobile, setMobile] = useState(false);
   function openMenu(){
@@ -28,8 +28,9 @@ export default function Header() {
       <header className="w-5/6 mx-auto py-4 relative">
         <nav className="w-full flex items-center gap-x-2">
           <div className="w-full flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold">LifeInsureEase</h1>
+            <div className="flex items-center">
+              <img src={Icon.src} width={"40px"} alt="" />
+              <h1 className="text-2xl font-bold">LifeInsure<span className="text-primary">Ease</span></h1>
             </div>
             <div className="hidden lg:block">
               <ul className="flex space-x-4">

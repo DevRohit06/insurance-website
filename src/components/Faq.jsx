@@ -16,7 +16,7 @@ const Accordion = () => {
                     Any Questions? Look Here
                   </h2>
                   <p className="text-base text-body-color">
-                  At LifeInsureEase, we understand that navigating the world of life insurance can raise numerous questions. We've curated this Frequently Asked Questions (FAQ) section to provide you with comprehensive answers to some of the most common queries our clients have had about life insurance.
+                  At <b>LifeInsureEase</b>, we understand that navigating the world of life insurance can raise numerous questions. We've curated this Frequently Asked Questions (FAQ) section to provide you with comprehensive answers to some of the most common queries our clients have had about life insurance.
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const AccordionItem = ({ header, text }) => {
       </button>
 
       <div
-        className={`pl-[62px] duration-200 ease-in-out ${
+        className={`pl-[62px] transition-all duration-200 ease-in-out ${
           active ? "block" : "hidden"
         }`}
       >
