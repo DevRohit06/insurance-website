@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Accordion = () => {
   return (
     <>
-      <div className="pt-52 sm:pt-96 w-5/6 mx-auto">
+      <div className=" w-5/6 mx-auto">
         <section className="relative z-20 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
           <div className="container mx-auto">
             <div className="-mx-4 flex flex-wrap">
