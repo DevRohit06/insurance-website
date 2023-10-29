@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Accordion = () => {
   return (
     <>
-      <div className=" w-5/6 mx-auto">
+      <div id="faq" className=" w-5/6 mx-auto">
         <section className="relative z-20 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
           <div className="container mx-auto">
             <div className="-mx-4 flex flex-wrap">
@@ -16,7 +16,11 @@ const Accordion = () => {
                     Any Questions? Look Here
                   </h2>
                   <p className="text-base text-body-color">
-                  At <b>LifeInsureEase</b>, we understand that navigating the world of life insurance can raise numerous questions. We've curated this Frequently Asked Questions (FAQ) section to provide you with comprehensive answers to some of the most common queries our clients have had about life insurance.
+                    At <b>LifeInsureEase</b>, we understand that navigating the
+                    world of life insurance can raise numerous questions. We've
+                    curated this Frequently Asked Questions (FAQ) section to
+                    provide you with comprehensive answers to some of the most
+                    common queries our clients have had about life insurance.
                   </p>
                 </div>
               </div>

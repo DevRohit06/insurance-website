@@ -1,8 +1,8 @@
 import { useState } from "react";
-import  Icon from "../assets/images/icon.png"
+import Icon from "../assets/images/icon.png";
 export default function Header() {
   const [mobile, setMobile] = useState(false);
-  function openMenu(){
+  function openMenu() {
     setMobile(!mobile);
   }
   const Links = [
@@ -26,7 +26,9 @@ export default function Header() {
           <div className="w-full flex items-center justify-between">
             <div className="flex items-center">
               <img src={Icon.src} width={"40px"} alt="" />
-              <h1 className="text-2xl font-bold">LifeInsure<span className="text-primary">Ease</span></h1>
+              <h1 className="text-2xl font-bold">
+                LifeInsure<span className="text-primary">Ease</span>
+              </h1>
             </div>
             <div className="hidden lg:block">
               <ul className="flex space-x-4">

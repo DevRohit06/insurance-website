@@ -1,22 +1,24 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Header from '../components/header.jsx';
-import Features from '../components/Features.astro';
-import Hero from "../components/Hero.astro"
-import Accordion from '../components/Faq';
-import Announcement from "../components/Announcement.astro"
-import Contact from "../components/Contact.jsx"
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Header from "../components/header.jsx";
+import Features from "../components/Features.astro";
+import Hero from "../components/Hero.astro";
+import Accordion from "../components/Faq";
+import Announcement from "../components/Announcement.astro";
+import Contact from "../components/Contact.jsx";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout title="LifeInsureEase">
-	<main>
-		<Announcement/>
-		<Header client:load/>
-		<Hero/>
-		<div class="pt-52 sm:pt-96"></div>
-		<Features/>
-		<Accordion client:load/>
-		<Contact client:load/>
-	</main>
+  <main>
+    <Announcement />
+    <Header client:load />
+    <Hero />
+    <div class="pt-52 sm:pt-96"></div>
+    <Features />
+    <Accordion client:load />
+    <Contact client:load />
+	<Footer/>
+  </main>
 </Layout>
