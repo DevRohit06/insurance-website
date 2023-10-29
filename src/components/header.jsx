@@ -85,7 +85,7 @@ export default function Header() {
 
         {mobile ? (
           <div className=" absolute w-full block lg:hidden">
-            <ul className="text-center bg-white rounded-xl mt-2 shadow-lg px-4 py-4">
+            <ul className="text-center text-xl font-semibold bg-white rounded-xl mt-2 shadow-lg px-4 py-4">
               {Links.map((item, index) => {
                 return (
                   <li key={index} className=" py-2 hover:shadow-xl rounded-xl">
