@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#4F9D69",
+        primary: "#278109",
       },
       animation: {
         dialog: "dialog 0.3s ease-in-out",

@@ -16,7 +16,7 @@ export default function Header() {
     },
     {
       name: "About us",
-      link: "/about",
+      link: "/#about-us",
     },
   ];
   return (
@@ -33,7 +33,7 @@ export default function Header() {
             <div className="hidden lg:block">
               <ul className="flex space-x-4">
                 {Links.map((item, index) => {
-                  return <li key={index}>{item.name}</li>;
+                  return <a aria-label={item.name} href={item.link} key={index}>{item.name}</a>;
                 })}
               </ul>
             </div>
@@ -84,12 +84,12 @@ export default function Header() {
 
         {mobile ? (
           <div className=" absolute w-full block lg:hidden">
-            <ul className="text-center text-xl font-semibold bg-white rounded-xl mt-2 shadow-lg px-4 py-4">
+            <ul className="text-center flex flex-col text-xl font-semibold bg-white rounded-xl mt-2 shadow-lg px-4 py-4">
               {Links.map((item, index) => {
                 return (
-                  <li key={index} className=" py-2 hover:shadow-xl rounded-xl">
+                  <a aria-label={item.name} href={item.link} key={index} className=" py-2 hover:shadow-xl rounded-xl">
                     {item.name}
-                  </li>
+                  </a>
                 );
               })}
             </ul>

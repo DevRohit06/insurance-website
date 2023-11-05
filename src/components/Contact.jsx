@@ -57,7 +57,7 @@ export default function Contact() {
                   {" "}
                   Get insurance Now
                 </h2>
-                <p className="text-base leading-relaxed text-gray-800 mb-9">
+                <p className="text-md leading-relaxed text-white mb-9 font-sans">
                   At <b className="text-gray-00">LifeInsureEase</b>, we value
                   your inquiries and feedback. Our team is here to assist you
                   and answer any questions you may have about our services and
@@ -73,7 +73,7 @@ export default function Contact() {
                   <div className="flex flex-col gap-4 mt-4">
                     {/* <div className="flex flex-col sm:flex-row items-center gap-4 ">
                       <svg
-                        className="fill-gray-800 max-w-12 h-12 p-2 bg-white rounded-md bg-opacity-10"
+                        className="fill-white max-w-12 h-12 p-2 bg-white rounded-md bg-opacity-10"
                         viewBox="0 0 24 24"
                         height="1em"
                         fill="none"
@@ -107,7 +107,7 @@ export default function Contact() {
                         className="flex flex-col sm:flex-row items-center gap-4 leading-relaxed"
                       >
                         <svg
-                          className="fill-gray-800 h-12 p-2 bg-white rounded-md bg-opacity-10"
+                          className="fill-white h-12 p-2 bg-white rounded-md bg-opacity-10"
                           viewBox="0 0 24 24"
                           height="1em"
                           fill="none"
@@ -143,7 +143,7 @@ export default function Contact() {
                       >
                         <svg
                           viewBox="0 0 24 24"
-                          className="fill-gray-800 h-12 p-2 bg-white rounded-md bg-opacity-10"
+                          className="fill-white h-12 p-2 bg-white rounded-md bg-opacity-10"
                           height="1em"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ export default function Contact() {
                         className="flex flex-col sm:flex-row items-center gap-4 leading-relaxed"
                       >
                         <svg
-                          className="fill-gray-800 h-12 p-2 bg-white rounded-md bg-opacity-10"
+                          className="fill-white h-12 p-2 bg-white rounded-md bg-opacity-10"
                           height="1em"
                           viewBox="0 0 24 24"
                           fill="none"
@@ -214,7 +214,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative p-8 bg-white rounded-lg shadow-lg sm:p-12">
+              <div className="relative p-8 text-gray-800 bg-white rounded-lg shadow-lg  sm:p-12">
                 <form id="form" action="" onSubmit={handleForm}>
                   <div className="mb-6">
                     <input
@@ -222,7 +222,8 @@ export default function Contact() {
                       name="Name"
                       type="text"
                       placeholder="Your Name"
-                      className="border-stroke text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
+                      className="border-stroke 
+                      placeholder:text-gray-800text-gray-800 focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
                     />
                   </div>
                   <div className="mb-6">
@@ -246,11 +247,12 @@ export default function Contact() {
                     />
                   </div>
                   <div className="mb-6">
+                    <label className="text-sm font-semibold" htmlFor="">Select your desired plan
                     <select
                       onChange={(e) => setPlan(e.target.value)}
                       name="Plan"
                       id="Plan"
-                      className="border-stroke text-gray-400 focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
+                      className="border-stroke text-gray-800 focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
                     >
                       <option className="" value="query">
                         Select a Plan
@@ -259,6 +261,7 @@ export default function Contact() {
                       <option value="Life">Life Insurance</option>
                       <option value="pension">Pension Plan</option>
                     </select>
+                    </label>
                   </div>
                   <div className="mb-6">
                     <textarea
@@ -275,7 +278,7 @@ export default function Contact() {
                       type="submit"
                       value="Get a Call"
                       onClick={Check}
-                      className="w-full p-3 text-white transition border rounded border-primary bg-primary hover:bg-opacity-90"
+                      className="w-full font-semibold p-3 text-white transition border rounded border-primary bg-primary hover:bg-opacity-90"
                     />
                   </div>
                 </form>
