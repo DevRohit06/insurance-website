@@ -8,7 +8,6 @@ export default function Contact() {
   const [plan, setPlan] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
-  const [isToast, setisToast] = useState(false);
   function Check() {}
   function handleForm(e) {
     e.preventDefault();

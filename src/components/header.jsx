@@ -1,24 +1,11 @@
 import { useState } from "react";
 import Icon from "../assets/images/icon.png";
+import { Links } from "../assets/js/all";
 export default function Header() {
   const [mobile, setMobile] = useState(false);
   function openMenu() {
     setMobile(!mobile);
   }
-  const Links = [
-    {
-      name: "Home",
-      link: "/",
-    },
-    {
-      name: "Insurance",
-      link: "/insurance",
-    },
-    {
-      name: "About us",
-      link: "/#about-us",
-    },
-  ];
   return (
     <>
       <header className="w-5/6 mx-auto py-4 relative">
