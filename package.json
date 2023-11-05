@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.2.1",
+    "@astrojs/partytown": "^2.0.2",
     "@astrojs/react": "^3.0.4",
     "@astrojs/tailwind": "^5.0.2",
     "@fontsource-variable/caveat": "^5.0.15",
@@ -19,6 +20,7 @@
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
     "astro": "^3.4.0",
+    "astro-compress": "^2.2.3",
     "axios": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
