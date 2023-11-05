@@ -5,7 +5,7 @@ export const Links = [
     },
     {
       name: "Insurance",
-      link: "/insurance",
+      link: "/#type-of-insurance",
     },
     {
       name: "About us",
