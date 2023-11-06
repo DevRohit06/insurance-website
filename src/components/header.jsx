@@ -28,7 +28,7 @@ export default function Header() {
               <a
                 className="px-4 py-2.5 bg-primary rounded-md text-white"
                 aria-label="contact button"
-                href="/contact"
+                href="/#contact"
               >
                 Contact Us
               </a>
