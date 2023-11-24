@@ -47,7 +47,7 @@ export default function Contact() {
       <div>
         <Toaster />
       </div>
-      <section id="contact" className=" relative z-10 overflow-hidden bg-primary  py-20 lg:py-[120px]">
+      <section id="contact" className=" relative z-10 overflow-hidden bg-[#001325]  py-20 lg:py-[120px]">
         <div className="w-5/6 container mx-auto">
           <div className="flex flex-wrap -mx-4 lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
